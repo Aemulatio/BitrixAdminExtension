@@ -1,0 +1,23 @@
+{
+  "name": "Make 1C-Bitrix not a such 💩",
+  "description": "Позволяет увеличить размер рабочей области для работы с кодом",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://*/bitrix/admin/fileman_file_edit.php*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "24": "images/icon-24.png",
+    "32": "images/icon-32.png",
+    "64": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  }
+}
